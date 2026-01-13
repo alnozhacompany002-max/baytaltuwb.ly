@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة بيت الطوب الأبيض المحدودة</title>
+    <style>
+        body, html {
+            margin: 0; padding: 0; height: 100%;
+            display: flex; justify-content: center; align-items: center;
+            background-color: #ffffff; overflow: hidden;
+        }
+        img {
+            max-width: 100%; max-height: 100vh;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <img src="photo.jpg" alt="شركة بيت الطوب الأبيض">
+</body>
+</html>
