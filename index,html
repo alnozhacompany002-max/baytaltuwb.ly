@@ -5,25 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>شركة بيت الطوب الأبيض المحدودة</title>
     <style>
+        /* كود لتوسيط الصورة وجعلها تملأ الشاشة */
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
             display: flex;
-            justify-content: center; /* لتوسيط الصورة عرضياً */
-            align-items: center;    /* لتوسيط الصورة طولياً */
-            background-color: #f4f4f4; /* لون خلفية هادئ */
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff; /* خلفية بيضاء */
+            overflow: hidden; /* لمنع ظهور شريط التمرير */
         }
         img {
             max-width: 100%;
-            max-height: 100%;
-            object-fit: contain; /* يحافظ على أبعاد الصورة دون تشويه */
+            max-height: 100vh;
+            object-fit: contain; /* يحافظ على جودة الصورة وأبعادها */
         }
     </style>
 </head>
 <body>
 
-    <img src="image.jpg" alt="واجهة شركة بيت الطوب الأبيض">
+    <img src="photo.jpg" alt="شركة بيت الطوب الأبيض المحدودة">
 
 </body>
 </html>
