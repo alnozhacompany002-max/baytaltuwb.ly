@@ -1,15 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>GitHub Link</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>عرض الصورة والبيانات</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; background: #f7f7f7; color: #222; }
+    .card { max-width: 800px; margin: auto; background: #fff; border: 1px solid #ddd; border-radius: 12px; overflow: hidden; }
+    .header { padding: 1rem 1.25rem; border-bottom: 1px solid #eee; }
+    .content { padding: 1rem 1.25rem; }
+    img { max-width: 100%; height: auto; display: block; border-radius: 8px; }
+    .data { margin-top: 1rem; display: grid; gap: .75rem; }
+    .item { padding: .75rem; background: #fafafa; border: 1px solid #eee; border-radius: 8px; }
+    .label { font-weight: 600; color: #555; }
+  </style>
 </head>
 <body>
+  <div class="card">
+    <div class="header">
+      <h1>البيانات المرفقة</h1>
+      <p>صفحة عامة تعرض الصورة والحقول الأساسية.</p>
+    </div>
+    <div class="content">
+      <!-- غيّر مسار الصورة حسب مكانها واسمها -->
+      <img src="assets/my-image.jpg" alt="الصورة المرفقة" />
 
-    <a href="https://github.com/USERNAME/REPOSITORY" target="_blank">
-        <img src="شركة بيت الطوب الابيض المحدودة.jpg" alt="GitHub"
-             style="width:200px;cursor:pointer;">
-    </a>
-
+      <div class="data">
+        <div class="item">
+          <div class="label">الاسم:</div>
+          <div>شركة المثال لاستيراد الأجهزة</div>
+        </div>
+        <div class="item">
+          <div class="label">النشاط:</div>
+          <div>استيراد معدات كهربائية وغير كهربائية وقطع غيار</div>
+        </div>
+        <div class="item">
+          <div class="label">العنوان:</div>
+          <div>طرابلس، ليبيا</div>
+        </div>
+        <div class="item">
+          <div class="label">ملاحظة:</div>
+          <div>يمكن تعديل هذه الحقول لتطابق بياناتك من الصورة.</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
